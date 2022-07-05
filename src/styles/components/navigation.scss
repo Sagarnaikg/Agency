@@ -1,0 +1,128 @@
+nav {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    left: 0;
+    top: -1px;
+    z-index: 1;
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    background-color: $yellow;
+
+    a {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            display: block;
+            margin-top: 5px;
+            right: 0;
+            background-color: $black;
+            transition: 0.4s ease;
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+                left: 0;
+                background-color: $black;
+            }
+        }
+    }
+
+    .nav-columns {
+        transform: translateY(125px);
+        display: flex;
+        padding: 0 32px;
+
+        @include media("<=654px") {
+            flex-direction: column;
+        }
+
+        @include media("<=phone") {
+            padding: 0 16px;
+        }
+
+        .nav-column {
+            width: 45%;
+
+            @include media("<=654px") {
+                width: 100%;
+            }
+
+            &:last-child {
+                width: 55%;
+
+                @include media("<=654px") {
+                    width: 100%;
+                }
+            }
+
+            .nav-label {
+                margin-bottom: 3rem;
+                font-size: 1.2rem;
+
+                @include media("<=tablet") {
+                    margin-bottom: 1.4rem;
+                    font-size: 1rem;
+                }
+                @include media("<=phone") {
+                    margin-bottom: 1.2rem;
+                    font-size: 0.75rem;
+                }
+            }
+            .nav-links {
+                padding: 0;
+                margin: 0;
+                li {
+                    list-style: none;
+                    margin-bottom: 2.8rem;
+                    @include media("<=phone") {
+                        margin-bottom: 1.6rem;
+                    }
+                    a {
+                        font-weight: 600;
+                        font-size: 2.4rem;
+                        text-decoration: none;
+                        color: $black;
+                        @include media("<=phone") {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+            .nav-infos {
+                display: flex;
+                flex-wrap: wrap;
+                @include media("<=654px") {
+                    justify-content: space-between;
+                }
+                .nav-info {
+                    padding: 0;
+                    width: 50%;
+                    .nav-info-label {
+                        font-weight: 600;
+                        list-style: none;
+                    }
+                    li {
+                        font-weight: 300;
+                        list-style: none;
+                        font-size: 1.4rem;
+                        margin-bottom: 1.2rem;
+
+                        @include media("<=tablet") {
+                            font-size: 1.2rem;
+                            margin-bottom: 1rem;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
