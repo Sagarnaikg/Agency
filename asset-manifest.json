@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/animated-landing-page-React/static/css/main.762c4036.css",
-    "main.js": "/animated-landing-page-React/static/js/main.8602f897.js",
-    "static/media/yourspace-min.png": "/animated-landing-page-React/static/media/yourspace-min.f952e744cd3a89104e28.png",
-    "static/media/lumin-min.png": "/animated-landing-page-React/static/media/lumin-min.c876698e9e972fa259dd.png",
-    "static/media/curology-min.png": "/animated-landing-page-React/static/media/curology-min.b052d80bb5672ad93f50.png",
-    "static/media/arrow-up.svg": "/animated-landing-page-React/static/media/arrow-up.3490fb87031c3671778edb44e9c773c8.svg",
-    "index.html": "/animated-landing-page-React/index.html",
-    "static/media/arrow-right.svg": "/animated-landing-page-React/static/media/arrow-right.f030f9db04711643a8b421bb60f13018.svg",
-    "static/media/arrow-left.svg": "/animated-landing-page-React/static/media/arrow-left.8edfe59d267ad47fbed40e1710984375.svg",
-    "main.762c4036.css.map": "/animated-landing-page-React/static/css/main.762c4036.css.map",
-    "main.8602f897.js.map": "/animated-landing-page-React/static/js/main.8602f897.js.map"
+    "main.css": "/Agency/static/css/main.762c4036.css",
+    "main.js": "/Agency/static/js/main.1c0788fa.js",
+    "static/media/yourspace-min.png": "/Agency/static/media/yourspace-min.f952e744cd3a89104e28.png",
+    "static/media/lumin-min.png": "/Agency/static/media/lumin-min.c876698e9e972fa259dd.png",
+    "static/media/curology-min.png": "/Agency/static/media/curology-min.b052d80bb5672ad93f50.png",
+    "static/media/arrow-up.svg": "/Agency/static/media/arrow-up.3490fb87031c3671778edb44e9c773c8.svg",
+    "index.html": "/Agency/index.html",
+    "static/media/arrow-right.svg": "/Agency/static/media/arrow-right.f030f9db04711643a8b421bb60f13018.svg",
+    "static/media/arrow-left.svg": "/Agency/static/media/arrow-left.8edfe59d267ad47fbed40e1710984375.svg",
+    "main.762c4036.css.map": "/Agency/static/css/main.762c4036.css.map",
+    "main.1c0788fa.js.map": "/Agency/static/js/main.1c0788fa.js.map"
   },
   "entrypoints": [
     "static/css/main.762c4036.css",
-    "static/js/main.8602f897.js"
+    "static/js/main.1c0788fa.js"
   ]
 }
